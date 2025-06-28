@@ -39,7 +39,7 @@ interface LayoutProps {
 
 const Home = ({ children, onNavClick }: LayoutProps) => {
   return (
-    <div className="flex flex-col md:flex-row min-h-screen bg-gray-100">
+    <div className="flex flex-col md:flex-row min-h-screen bg-gray-100 pt-10 md:pt-0">
       {/* Sidebar on top for mobile, left for desktop */}
       <Sidebar onNavClick={onNavClick} />
 

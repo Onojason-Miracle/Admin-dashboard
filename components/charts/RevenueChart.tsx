@@ -29,7 +29,9 @@ const data = [
 const RevenueChart = () => {
   return (
     <div className="bg-white p-6 rounded-xl shadow-sm w-full h-100">
-      <h2 className="text-lg font-semibold text-gray-700 mb-4">Total Revenue</h2>
+      <h2 className="text-lg font-semibold text-gray-700 mb-4">
+        Total Revenue
+      </h2>
       <ResponsiveContainer width="100%" height="90%">
         <LineChart data={data}>
           <CartesianGrid stroke="#e5e7eb" strokeDasharray="3 3" />
@@ -37,8 +39,20 @@ const RevenueChart = () => {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="revenue2020" stroke="#3b82f6" strokeWidth={2} dot={{ r: 4 }}  />
-          <Line type="monotone" dataKey="revenue2021" stroke="#ef4444" strokeWidth={2} dot={{ r: 4 }} />
+          <Line
+            type="monotone"
+            dataKey="revenue2020"
+            stroke="#3b82f6"
+            strokeWidth={2}
+            dot={{ r: 4 }}
+          />
+          <Line
+            type="monotone"
+            dataKey="revenue2021"
+            stroke="#ef4444"
+            strokeWidth={2}
+            dot={{ r: 4 }}
+          />
         </LineChart>
       </ResponsiveContainer>
     </div>
