@@ -1,36 +1,44 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🖥️ Admin Panel Dashboard
 
-First, run the development server:
+A modern, responsive admin dashboard built using Next.js and TypeScript, designed to manage and visualize business data through dynamic charts, user tables, reviews, and food items. This project is inspired by a detailed Figma prototype and optimized for mobile and desktop experiences.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔗 [View Live Project](https://admin-dashboard-theta-ten-10.vercel.app/)  
+🔗 [GitHub Repository](https://github.com/Onojason-Miracle/Admin-dashboard)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📌 Features
 
-To learn more about Next.js, take a look at the following resources:
+- ✅ Responsive Sidebar Navigation
+- 📊 Interactive Charts (Line & Bar) with Recharts
+- 👥 User Table with pagination
+- ⭐ Customer Reviews display
+- 🍔 Food Store Component (name, image, price)
+- 🔁 Dynamic View Switching* via sidebar
+- 📱 Mobile-friendly layout with sticky header and collapsible sidebar
+- ♻️ Reusable Components & Layouts
+- ✨ Clean UI matching Figma design
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+| Tool            | Purpose                           |
+|-----------------|------------------------------------|
+| Next.js     | App framework                     |
+| TypeScript | Static type checking              |
+| Tailwind CSS| Utility-first styling             |
+| Recharts    | Chart visualizations              |
+| React Icons | Icon library                      |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
