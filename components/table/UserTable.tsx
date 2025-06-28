@@ -44,7 +44,10 @@ const UserTable = () => {
           </thead>
           <tbody>
             {paginatedUsers.map((user) => (
-              <tr key={user.id} className="border-b hover:bg-gray-50 text-center ">
+              <tr
+                key={user.id}
+                className="border-b hover:bg-gray-50 text-center "
+              >
                 <td className="px-4 py-2 text-black ">{user.name}</td>
                 <td className="px-4 py-2 text-black ">{user.email}</td>
                 <td className="px-4 py-2 text-black ">{user.role}</td>
@@ -84,7 +87,7 @@ const UserTable = () => {
         >
           Next
         </button>
-{/* 
+        {/* 
 <button
   onClick={() => setCurrentPage((p) => Math.max(p - 1, 1))}
   disabled={currentPage === 1}
@@ -102,9 +105,7 @@ const UserTable = () => {
 >
   Next
 </button> */}
-
-
-      </div> 
+      </div>
     </div>
   );
 };

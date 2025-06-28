@@ -10,7 +10,13 @@ interface StatCardProps {
   iconBg?: string;
 }
 
-const StatCard = ({ icon, label, value, subtitle, iconBg = "bg-green-100" }: StatCardProps) => {
+const StatCard = ({
+  icon,
+  label,
+  value,
+  subtitle,
+  iconBg = "bg-green-100",
+}: StatCardProps) => {
   return (
     <div className="bg-white p-4 rounded-xl shadow-sm flex items-center gap-4">
       <div className={`p-3 rounded-full ${iconBg} text-green-600 text-xl`}>

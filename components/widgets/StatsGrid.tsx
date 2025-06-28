@@ -1,11 +1,16 @@
 "use client";
 
 import StatCard from "./StatCard";
-import { FaShoppingCart, FaTruck, FaTimesCircle, FaDollarSign } from "react-icons/fa";
+import {
+  FaShoppingCart,
+  FaTruck,
+  FaTimesCircle,
+  FaDollarSign,
+} from "react-icons/fa";
 
 const StatsGrid = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full lg:w-[90%] lg:mx-auto">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full lg:w-[90%] lg:mx-auto mt-8">
       <StatCard
         icon={<FaShoppingCart />}
         label="Total Orders"

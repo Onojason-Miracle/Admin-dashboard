@@ -27,7 +27,7 @@ const reviews: Review[] = [
     time: "1 day ago",
   },
 
-   {
+  {
     id: 4,
     name: "Miracle Onojason",
     message: "i loved the fries!!!.",
@@ -45,7 +45,7 @@ const Reviews = () => {
         {reviews.map((review) => (
           <li key={review.id} className="border-b pb-4 last:border-none">
             <div className="flex items-start gap-4">
-              {/* Avatar placeholder (initials) */}
+              {/* name initials placeholder (initials) */}
               <div className="w-10 h-10 flex items-center justify-center rounded-full bg-green-100 text-green-700 font-bold">
                 {review.name
                   .split(" ")

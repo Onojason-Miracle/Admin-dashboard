@@ -23,14 +23,21 @@ const data = [
 const LineChartBox = () => {
   return (
     <div className="bg-white p-6 rounded-xl shadow-sm w-full h-80">
-      <h2 className="text-lg font-semibold text-gray-700 mb-4">Revenue This Week</h2>
+      <h2 className="text-lg font-semibold text-gray-700 mb-4">
+        Revenue This Week
+      </h2>
       <ResponsiveContainer width="100%" height="90%">
         <LineChart data={data}>
           <CartesianGrid stroke="#e5e7eb" strokeDasharray="3 3" />
           <XAxis dataKey="name" />
           <YAxis />
           <Tooltip />
-          <Line type="monotone" dataKey="revenue" stroke="#22c55e" strokeWidth={2} />
+          <Line
+            type="monotone"
+            dataKey="revenue"
+            stroke="#22c55e"
+            strokeWidth={2}
+          />
         </LineChart>
       </ResponsiveContainer>
     </div>
